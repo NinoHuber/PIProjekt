@@ -1,0 +1,6 @@
+@PIProjektAPI_HostAddress = http://localhost:5115
+
+GET {{PIProjektAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

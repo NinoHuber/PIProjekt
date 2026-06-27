@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../PIProjektAPI/PIProjektAPI.csproj" Id="a485c5bc-bbba-44ee-9369-988f7ee46597" />
+  <Project Path="../PIProjektTests/PIProjektTests.csproj" Id="bfb9f4cc-8965-4b4c-84ec-c8b81264931d" />
+  <Project Path="PIProjekt.csproj" />
+</Solution>

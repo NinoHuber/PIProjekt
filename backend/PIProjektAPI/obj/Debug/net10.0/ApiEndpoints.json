@@ -1,0 +1,59 @@
+[
+  {
+    "ContainingType": "PIProjekt.Controllers.WeddingPlannerController",
+    "Method": "GetVendors",
+    "RelativePath": "api/WeddingPlanner/vendors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PIProjekt.Dtos.PagedResultDto\u00601[[PIProjekt.Dtos.PartnerResponseDto, PIProjekt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIProjekt.Controllers.WeddingPlannerController",
+    "Method": "CreateWedding",
+    "RelativePath": "api/WeddingPlanner/weddings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "submission",
+        "Type": "PIProjekt.Dtos.WeddingSubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
